@@ -2,9 +2,12 @@
   "name": "power-now-service",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": ">=24.0.0"
+  },
   "scripts": {
     "dev": "next dev",
-    "build": "next build --webpack",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
