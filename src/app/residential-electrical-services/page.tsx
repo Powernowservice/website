@@ -6,7 +6,7 @@ import { serviceBySlug } from "@/lib/site";
 
 const service = serviceBySlug["residential-electrical-services"];
 
-export const metadata = pageMetadata({ title: "Residential Electrical Services in North Houston", description: service.description, path: "/residential-electrical-services", image: service.image });
+export const metadata = pageMetadata({ title: "Residential Electrical Services", description: service.description, path: "/residential-electrical-services", image: service.image });
 
 export default function Page() {
   return <><JsonLd data={[serviceSchema(service), breadcrumbSchema([{ name: "Home", path: "/" }, { name: service.shortName, path: `/${service.slug}` }])]} /><ServicePage service={service} /></>;

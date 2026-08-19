@@ -18,8 +18,8 @@ export function SiteFooter() {
             height={249}
           />
           <p>
-            Load bank repair, PCS gear support, and residential and commercial electrical
-            service across the North Houston corridor.
+            Load bank repair, PCS gear support, and electrical
+            service nationwide across all 50 states.
           </p>
           <div className="footer-actions">
             <a href={siteConfig.phoneHref}>
@@ -44,18 +44,20 @@ export function SiteFooter() {
           <h2>Power Now</h2>
           <ul>
             <li><Link href="/projects">Field Work</Link></li>
-            <li><Link href="/service-areas/north-houston">Service Area</Link></li>
+            <li><Link href="/service-areas/nationwide">Service Area</Link></li>
             <li><Link href="/articles">Articles</Link></li>
             <li><Link href="/about">About</Link></li>
             <li><Link href="/contact">Contact</Link></li>
           </ul>
         </div>
         <div className="footer-coverage">
-          <h2>North Houston Corridor</h2>
-          <p>{siteConfig.serviceAreas.join(" · ")}</p>
-          <Link href="/service-areas/north-houston">
-            Check the service area <ArrowUpRight aria-hidden="true" size={16} />
-          </Link>
+          <h2>Nationwide Coverage</h2>
+          <p className="footer-area-list">
+            <Link href="/service-areas/nationwide">
+              {siteConfig.serviceAreas.join(", ")}
+              <ArrowUpRight aria-hidden="true" size={16} />
+            </Link>
+          </p>
         </div>
       </div>
       <div className="shell footer-bottom">

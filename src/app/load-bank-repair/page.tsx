@@ -7,8 +7,8 @@ import { serviceBySlug } from "@/lib/site";
 const service = serviceBySlug["load-bank-repair"];
 
 export const metadata = pageMetadata({
-  title: "Load Bank Repair in North Houston",
-  description: "Load bank repair for fan, resistor, contactor, wiring, control-power, and heat-damage concerns across North Houston.",
+  title: "Nationwide Load Bank Repair",
+  description: "Load bank repair for fan, resistor, contactor, wiring, control-power, and heat-damage concerns nationwide.",
   path: "/load-bank-repair",
   image: service.image,
 });

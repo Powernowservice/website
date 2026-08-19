@@ -40,11 +40,11 @@ const sourceSans = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
   title: {
-    default: "Load Bank Repair North Houston | Power Now Service",
+    default: "Nationwide Load Bank Repair | Power Now Service",
     template: "%s | Power Now Service",
   },
   description:
-    "Load bank repair, PCS gear service, and electrical troubleshooting for North Houston, Spring, The Woodlands, Conroe, Tomball, Humble, and Kingwood.",
+    "Nationwide load bank repair, PCS gear service, and electrical troubleshooting across all 50 states. Based in North Houston.",
   applicationName: siteConfig.name,
   category: "Electrical service",
   referrer: "origin-when-cross-origin",
@@ -67,14 +67,14 @@ export const metadata: Metadata = {
     type: "website",
     siteName: siteConfig.name,
     locale: "en_US",
-    title: "Load Bank Repair North Houston | Power Now Service",
+    title: "Nationwide Load Bank Repair | Power Now Service",
     description: siteConfig.tagline,
     url: "/",
     images: [{ url: "/opengraph-image.jpg", width: 1200, height: 630, alt: "Power Now Service load bank repair" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Load Bank Repair North Houston | Power Now Service",
+    title: "Nationwide Load Bank Repair | Power Now Service",
     description: siteConfig.tagline,
     images: ["/opengraph-image.jpg"],
   },

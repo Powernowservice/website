@@ -46,28 +46,23 @@ export const siteConfig: SiteConfig = {
   phoneHref: "tel:+19364023202",
   bookingUrl: "https://calendly.com/powernowservice/estimate",
   serviceAreas: [
-    "North Houston",
-    "Spring",
-    "The Woodlands",
-    "Conroe",
-    "Tomball",
-    "Humble",
-    "Kingwood",
+    "Nationwide",
+    "All 50 States",
   ],
-  primaryArea: "North Houston and surrounding communities",
+  primaryArea: "Nationwide and all 50 states",
   siteUrl: configuredUrl || "http://localhost:3000",
-  tagline: "Load bank repair and electrical service for North Houston",
+  tagline: "Nationwide on-call load bank repair and electrical service (Based in North Houston)",
 };
 
 export const services: ServiceDefinition[] = [
   {
     slug: "load-bank-repair",
-    name: "Load Bank Repair in North Houston",
+    name: "Nationwide Load Bank Repair",
     shortName: "Load Bank Repair",
     description:
       "Field assessment and repair support for damaged resistive elements, cooling systems, contactors, controls, wiring, and related load bank components.",
     answer:
-      "Power Now Service inspects and repairs load banks across North Houston when heat damage, failed cooling, contactor problems, wiring faults, or control issues interrupt operation. The first step is identifying the failed section, the condition of surrounding components, and whether a safe repair is practical for that specific unit.",
+      "Power Now Service inspects and repairs load banks nationwide when heat damage, failed cooling, contactor problems, wiring faults, or control issues interrupt operation. The first step is identifying the failed section, the condition of surrounding components, and whether a safe repair is practical for that specific unit.",
     includes: [
       "Resistive element and load-step inspection",
       "Cooling fan, motor, and airflow troubleshooting",
@@ -161,12 +156,12 @@ export const services: ServiceDefinition[] = [
   },
   {
     slug: "commercial-electrical-services",
-    name: "Commercial Electrical Services in North Houston",
+    name: "Commercial Electrical Services Nationwide",
     shortName: "Commercial Electrical",
     description:
-      "Electrical troubleshooting, panels, breakers, circuits, lighting, generator connections, transfer equipment, and equipment power for North Houston businesses.",
+      "Electrical troubleshooting, panels, breakers, circuits, lighting, generator connections, transfer equipment, and equipment power for commercial businesses.",
     answer:
-      "Power Now Service handles commercial electrical troubleshooting and planned service for North Houston businesses, facilities, and contractors. Work can include panels, breakers, circuits, lighting, generator or transfer equipment connections, and equipment-related electrical issues after the site and requested scope are reviewed.",
+      "Power Now Service handles commercial electrical troubleshooting and planned service for businesses, facilities, and contractors nationwide. Work can include panels, breakers, circuits, lighting, generator or transfer equipment connections, and equipment-related electrical issues after the site and requested scope are reviewed.",
     includes: [
       "Electrical fault troubleshooting",
       "Panels, breakers, and circuit work",
@@ -208,12 +203,12 @@ export const services: ServiceDefinition[] = [
   },
   {
     slug: "residential-electrical-services",
-    name: "Residential Electrical Services in North Houston",
+    name: "Residential Electrical Services",
     shortName: "Residential Electrical",
     description:
-      "Straightforward electrical troubleshooting and planned service for North Houston homes, including panels, breakers, lighting, switches, outlets, and circuits.",
+      "Straightforward electrical troubleshooting and planned service for homes, including panels, breakers, lighting, switches, outlets, and circuits.",
     answer:
-      "Power Now Service helps North Houston homeowners identify and plan electrical repairs involving panels, breakers, lighting, switches, outlets, circuits, and other common electrical concerns. Call or book an estimate with a clear description of the issue, where it occurs, and when it started.",
+      "Power Now Service helps homeowners identify and plan electrical repairs involving panels, breakers, lighting, switches, outlets, circuits, and other common electrical concerns. Call or book an estimate with a clear description of the issue, where it occurs, and when it started.",
     includes: [
       "Electrical troubleshooting",
       "Panel and breaker concerns",
@@ -226,7 +221,7 @@ export const services: ServiceDefinition[] = [
       "Homeowners with repeat electrical symptoms",
       "Planned lighting or circuit work",
       "Panel and breaker concerns",
-      "Homes in the North Houston service corridor",
+      "Homes needing reliable electrical service",
     ],
     limits:
       "The final scope depends on the home's wiring, access, existing equipment, permitting needs, and what the on-site evaluation finds.",
@@ -249,7 +244,7 @@ export const services: ServiceDefinition[] = [
       {
         question: "Which areas do you serve?",
         answer:
-          "The published service area includes North Houston, Spring, The Woodlands, Conroe, Tomball, Humble, and Kingwood. Call to confirm the exact project address.",
+          "Power Now Service offers nationwide coverage, serving all 50 states on call. We are based in North Houston, but travel anywhere our expertise is needed. Call to confirm the exact project address.",
       },
     ],
   },
@@ -260,7 +255,7 @@ export const services: ServiceDefinition[] = [
     description:
       "Electrical support around generator controls, transfer equipment, power connections, load-bank coordination, and related troubleshooting.",
     answer:
-      "Power Now Service provides electrical support around generator systems, transfer equipment, controls, power connections, and load-bank coordination in North Houston. The estimate defines whether the need is an electrical fault, control issue, connection problem, testing concern, or broader equipment-service request.",
+      "Power Now Service provides electrical support around generator systems, transfer equipment, controls, power connections, and load-bank coordination nationwide. The estimate defines whether the need is an electrical fault, control issue, connection problem, testing concern, or broader equipment-service request.",
     includes: [
       "Transfer-equipment electrical inspection",
       "Control and connection troubleshooting",
@@ -412,7 +407,7 @@ export const navItems = [
   { href: "/load-bank-repair", label: "Load Bank Repair" },
   { href: "/pcs-gear-service", label: "PCS Gear" },
   { href: "/projects", label: "Field Work" },
-  { href: "/service-areas/north-houston", label: "Service Area" },
+  { href: "/service-areas/nationwide", label: "Service Area" },
   { href: "/articles", label: "Articles" },
   { href: "/about", label: "About" },
 ];

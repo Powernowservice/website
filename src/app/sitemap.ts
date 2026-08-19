@@ -4,7 +4,7 @@ import { projectMedia, services, siteConfig } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const updated = new Date("2026-08-14");
-  const core = ["", ...services.map((service) => `/${service.slug}`), "/projects", "/service-areas/north-houston", "/about", "/contact", "/articles"];
+  const core = ["", ...services.map((service) => `/${service.slug}`), "/projects", "/service-areas/nationwide", "/about", "/contact", "/articles"];
   return [
     ...core.map((path, index) => ({
       url: `${siteConfig.siteUrl}${path}`,

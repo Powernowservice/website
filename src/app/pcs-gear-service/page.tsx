@@ -6,7 +6,7 @@ import { serviceBySlug } from "@/lib/site";
 
 const service = serviceBySlug["pcs-gear-service"];
 
-export const metadata = pageMetadata({ title: "PCS Gear Service in North Houston", description: service.description, path: "/pcs-gear-service", image: service.image });
+export const metadata = pageMetadata({ title: "PCS Gear Service Nationwide", description: service.description, path: "/pcs-gear-service", image: service.image });
 
 export default function Page() {
   return <><JsonLd data={[serviceSchema(service), breadcrumbSchema([{ name: "Home", path: "/" }, { name: service.shortName, path: `/${service.slug}` }])]} /><ServicePage service={service} /></>;

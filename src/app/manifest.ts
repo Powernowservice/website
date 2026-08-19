@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Power Now Service",
     short_name: "Power Now",
-    description: "Load bank repair and electrical service in North Houston.",
+    description: "Nationwide load bank repair and electrical service based in North Houston.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

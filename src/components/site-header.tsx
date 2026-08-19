@@ -8,7 +8,7 @@ export function SiteHeader() {
     <>
       <div className="utility-bar">
         <div className="shell utility-inner">
-          <span>Serving North Houston and the north corridor</span>
+          <span>Nationwide on-call service based in North Houston</span>
           <a href={siteConfig.phoneHref}>Call {siteConfig.phoneDisplay}</a>
         </div>
       </div>

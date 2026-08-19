@@ -10,17 +10,17 @@ import { pageMetadata } from "@/lib/metadata";
 import { projectMedia, services, siteConfig } from "@/lib/site";
 
 export const metadata = pageMetadata({
-  title: "Load Bank Repair and Electrical Service in North Houston",
+  title: "Nationwide Load Bank Repair and Electrical Service",
   description:
-    "Power Now Service repairs load banks and supports PCS gear, generator electrical systems, commercial facilities, and homes across North Houston.",
+    "Power Now Service repairs load banks and supports PCS gear, generator electrical systems, and commercial facilities nationwide. Based in North Houston.",
   path: "/",
 });
 
 const homeFaqs = [
   {
-    question: "Does Power Now Service repair load banks in the Houston area?",
+    question: "Does Power Now Service repair load banks nationwide?",
     answer:
-      "Power Now Service serves the North Houston corridor, including Spring, The Woodlands, Conroe, Tomball, Humble, and Kingwood. Repair scope can include fans, resistive elements, contactors, wiring, controls, power supplies, and visible heat damage after the unit is evaluated.",
+      "Yes, Power Now Service serves all 50 states on call. Repair scope can include fans, resistive elements, contactors, wiring, controls, power supplies, and visible heat damage after the unit is evaluated.",
   },
   {
     question: "What information should I provide for a load bank estimate?",
@@ -48,11 +48,11 @@ export default function HomePage() {
         <section className="home-hero dark-section">
           <div className="shell home-hero-grid">
             <div className="home-hero-copy">
-              <span className="hero-kicker">North Houston critical-power service</span>
-              <h1>Load Bank Repair <span>and Electrical Service</span> in North Houston</h1>
+              <span className="hero-kicker">Nationwide critical-power service</span>
+              <h1>Load Bank Repair <span>and Electrical Service</span> Nationwide</h1>
               <p className="hero-lede">
                 Field-focused troubleshooting for damaged load banks, PCS gear, generator electrical
-                systems, commercial facilities, and homes across the north Houston corridor.
+                systems, and commercial facilities across all 50 states. Based in North Houston.
               </p>
               <div className="hero-actions">
                 <a className="button button-primary" href={siteConfig.bookingUrl}>
@@ -89,7 +89,7 @@ export default function HomePage() {
           <div className="shell answer-strip-inner">
             <strong>What does Power Now Service do?</strong>
             <p>
-              Power Now Service specializes in load bank repair in North Houston and supports the
+              Power Now Service specializes in load bank repair nationwide and supports the
               connected electrical systems around critical power—from cooling fans and resistor banks
               to controls, contactors, transfer equipment, PCS gear, panels, circuits, and wiring.
             </p>
@@ -216,13 +216,12 @@ export default function HomePage() {
         <section className="content-section dark-section">
           <div className="shell coverage-layout">
             <div className="coverage-copy">
-              <span className="section-label">North Houston service corridor</span>
-              <h2>One genuine regional service page—not a stack of thin city pages.</h2>
+              <span className="section-label">Nationwide service coverage</span>
+              <h2>One genuine nationwide footprint.</h2>
               <p>
-                Power Now Service publishes one clear service-area page covering the confirmed north
-                Houston corridor. Call with the exact project address to confirm travel and fit.
+                Power Now Service publishes one clear service-area page covering our 50-state nationwide capability. Call with the exact project address to confirm travel and fit.
               </p>
-              <Link className="button button-dark-outline" href="/service-areas/north-houston">View the Service Area</Link>
+              <Link className="button button-dark-outline" href="/service-areas/nationwide">View the Service Area</Link>
             </div>
             <div className="coverage-diagram">
               <ul className="area-list" aria-label="Published service areas">

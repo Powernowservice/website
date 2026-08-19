@@ -17,7 +17,7 @@ export function ServicePage({ service }: { service: ServiceDefinition }) {
             <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: service.shortName }]} />
             <div className="service-hero-grid">
               <div className="service-hero-copy reveal-up">
-                <span className="hero-kicker">North Houston electrical service</span>
+                <span className="hero-kicker">Nationwide electrical service</span>
                 <h1>{service.name}</h1>
                 <p className="hero-lede">{service.answer}</p>
                 <div className="hero-actions">
